@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+}
+body{
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: row;
+    
+}
+.buttonPanel{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    margin-top: 100px;
+    margin-right: auto;
+    width: 250px;
+    border-collapse: collapse;
+    border-color: #64a0e4;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 2%;
+}
+.button{
+    background-color: #2c2c2c;
+    flex: 1 1 auto;
+    border-color: #64a0e4;
+    border-style: solid;
+    border-width: 7px;
+    font-family: TenbyFive;
+    font-size: 56px;
+    text-align: center;
+    color: #64a0e4;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #c4c4c4;
+    color: #5c5858;
+}
+.mainContainer{
+    background-color: #2c2c2c;
+    height: 430px;
+    margin: 100px 50px auto 100px;
+    width: 750px;
+    border-color: #64a0e4;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5%;
+    font-family: TenbyFive;
+    color: #64a0e4;
+    overflow: auto;
+}
+input[type="text"]{
+    background-color: #5c5858;
+    float: right;
+    margin: 10px 10px;
+    width: 550px;
+    border-color: #64a0e4;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    font-family: TenbyFive;
+    font-size: 28px;
+    color: #64a0e4;
+    outline: none;
+}
+
+label{
+    float: left;
+    font-family: TenbyFive;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+fieldset{
+    margin: 15px;
+    border-style: solid;
+    border-color: #64a0e4;
+    border-width: 5px;
+    border-radius: 5px;
+}
+legend{
+    font-size: 28px;
+}
+input[type="submit"]{
+    background-color: #2c2c2c;
+    float: right;
+    margin-right: 15px;
+    padding: 5px;
+    border-color: #64a0e4;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    font-family: TenbyFive;
+    font-size: 28px;
+    text-align: center;
+    color: #64a0e4;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #c4c4c4;
+    color: #5c5858;
+}
+table{
+    empty-cells: hide;
+    min-width: 730px;
+    margin: 10px 5px 10px 2px;
+    font-family: TenbyFive;
+    font-size: 24px;
+    border-collapse: collapse;
+}
+th, td{
+    padding: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: #64a0e4;
+    text-align: center;
+}
+td:hover{
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
+.borderlessthtd{
+    border-top-color: #2c2c2c;
+    border-bottom-color: #2c2c2c;
+    border-left-color: #2c2c2c;
+}
+.svg{
+    width: 30px;
+    height: 28px;
+    padding-top: 5px;
+}
+.svghover{
+    cursor: pointer !important;
+    background-color: #2c2c2c !important;
+}
+@font-face {
+    font-family: 'TenbyFive';
+    src: url('../fonts/tenby-five-webfont.otf'),
+         url('../fonts/tenby-five-webfont.eot'),
+         url('../fonts/tenby-five-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tenby-five-webfont.woff2') format('woff2'),
+         url('../fonts/tenby-five-webfont.woff') format('woff'),
+         url('../fonts/tenby-five-webfont.ttf') format('truetype'),
+         url('../fonts/tenby-five-webfont.svg#TenbyFive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.clear{
+    clear: both;
+}
